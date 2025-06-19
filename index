@@ -1,1 +1,102 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jen’s Woodworkings Art and Laser Engraving</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: url(https://i.imgur.com/6s9Z7sr.jpeg
+) no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+      color: #ff99cc;
+    }
+
+    .contact-box {
+      background: rgba(0, 0, 50, 0.7);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+      text-align: left;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    .contact-box label {
+      font-weight: bold;
+      display: block;
+      margin: 1rem 0 0.25rem;
+    }
+
+    .contact-box input {
+      width: 100%;
+      padding: 0.7rem;
+      border-radius: 6px;
+      border: none;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+
+    .contact-box button {
+      width: 100%;
+      padding: 0.7rem;
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .contact-box button:hover {
+      background-color: #ff85c1;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Jen’s Woodworkings Art and Laser Engraving</h1>
+    <div class="contact-box">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" />
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" />
+
+      <button type="submit">Contact Me</button>
+    </div>
+  </div>
+</body>
+</html>
